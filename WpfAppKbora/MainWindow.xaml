@@ -5,5 +5,5 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CusaInWPF"
         mc:Ignorable="d"
-        Title="Kbora Application" Height="450" Width="800" Source="/UI/LoginScreen.xaml">
+        Title="Kbora WPF Application" Height="450" Width="800" Source="/UI/LoginScreen.xaml">
 </NavigationWindow>
