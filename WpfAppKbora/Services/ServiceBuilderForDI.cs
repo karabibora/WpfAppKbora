@@ -15,7 +15,7 @@ namespace WpfAppKbora.Services
         public static ServiceProvider LoadServiceProvider()
         {
             // create service collection
-            //var services = new ServiceCollection();
+            //var services = new ServiceCollection(); // don't use thsi
             if (_services == null)
             {
                 _services = new ServiceCollection();
