@@ -1,5 +1,4 @@
 ﻿using AutoMapper.Attributes;
-//using CusaDataEF.Entities;
 using DATA.Model;
 using System;
 

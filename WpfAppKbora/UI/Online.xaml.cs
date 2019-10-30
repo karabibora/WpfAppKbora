@@ -47,7 +47,7 @@ namespace CusaInWPF.UI
             var accts = _dbContext.Departments.Where(x => x.Name == "Department 1").ProjectTo<DepartmentGetModel>().ToList();
             if (accts.Count > 0)
 			{
-				//data binding
+				//data binding to the control
 				dataGridMain.ItemsSource = accts;
 			}
 		}
