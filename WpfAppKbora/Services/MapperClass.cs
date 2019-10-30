@@ -20,7 +20,7 @@ namespace WpfAppKbora.Services
 				Mapper.Initialize(cfg =>
 				{
 					//cfg.CreateMap<Acct, AcctGetModel>() ; // for regular automap
-                    // for attribute auto mapping,kbora test again
+                    // for attribute auto mapping
 					typeof(DepartmentGetModel).Assembly.MapTypes(cfg); 
 
 				});
