@@ -7,7 +7,7 @@ namespace WpfAppKbora.Models
 	[MapsTo(typeof(Departments))]
 	public class DepartmentGetModel
 	{
-        public string Name { get; set; }
+        public string Name { get; set; } // Nmae
         public DateTimeOffset ModifyTimestamp { get; set; }
         public string ModifyHostName { get; set; }
         public string ModifyEmail { get; set; }
